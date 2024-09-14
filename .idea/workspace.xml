@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117a6eb6-6f19-4e32-ab33-91d1e720d00c" name="Changes" comment="Driver Gps App commit 1">
+    <list default="true" id="117a6eb6-6f19-4e32-ab33-91d1e720d00c" name="Changes" comment="Driver Gps App commit 2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverModel/Courrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverModel/CourrierServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverModel/GpsCoordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverModel/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverController/DriverControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverController/DriverControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -94,7 +101,7 @@
       <workItem from="1726274558375" duration="591000" />
       <workItem from="1726275196801" duration="272000" />
       <workItem from="1726275471536" duration="659000" />
-      <workItem from="1726354222693" duration="31000" />
+      <workItem from="1726354222693" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="Driver Gps App commit 1">
       <option name="closed" value="true" />
@@ -112,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726275332048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Driver Gps App commit 2">
+      <option name="closed" value="true" />
+      <created>1726354261441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726354261441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Driver Gps App commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Driver Gps App commit 1" />
+    <MESSAGE value="Driver Gps App commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Driver Gps App commit 2" />
   </component>
 </project>
