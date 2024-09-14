@@ -24,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -56,6 +56,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="DriverApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="driverGpsApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.DriverApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DriverApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,7 +92,9 @@
       <option name="presentableId" value="Default" />
       <updated>1726274557306</updated>
       <workItem from="1726274558375" duration="591000" />
-      <workItem from="1726275196801" duration="131000" />
+      <workItem from="1726275196801" duration="272000" />
+      <workItem from="1726275471536" duration="659000" />
+      <workItem from="1726354222693" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Driver Gps App commit 1">
       <option name="closed" value="true" />
@@ -82,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726275213130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Driver Gps App commit 1">
+      <option name="closed" value="true" />
+      <created>1726275332048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726275332048</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

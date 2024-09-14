@@ -14,6 +14,6 @@ public class DriverControllerApi {
 
     @GetMapping("/getall")
     public ResponseEntity<?> getallDrivers(){
-        return ResponseEntity.status(HttpStatus.ACCEPTED).body("ok");
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body("test");
     }
 }
