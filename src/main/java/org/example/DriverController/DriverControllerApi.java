@@ -20,16 +20,15 @@ public class DriverControllerApi {
 
 
     @PostMapping("/save")
-    public ResponseEntity<?> SaveNewDriver(){
+    public ResponseEntity<?> SaveNewDriver(@RequestBody SignupRequest signupRequest){
 
         Courrier courrier = new Courrier();
         GpsCoordinates gpsCoordinates = new GpsCoordinates();
 
-        gpsCoordinates.setLatitude("33.4383932");
-        gpsCoordinates.setLongtitue("94.489493");
-
-        courrier.setDriverid("1");
-        courrier.setName("BEN BEN");
+        gpsCoordinates.setLatitude(signupRequest.getGpsCoordinates().getLatitude());
+        gpsCoordinates.setLongtitue(signupRequest.getGpsCoordinates().getLongtitue());
+        courrier.setName(signupRequest.getName());
+        courrier.setDriverid(signupRequest.getDriverid());
         courrier.setGpsCoordinates(gpsCoordinates);
 
 
@@ -48,7 +47,8 @@ public class DriverControllerApi {
 
     @GetMapping("/all")
     public ResponseEntity<?> getallDrivers(){
-        return ResponseEntity.status(HttpStatus.ACCEPTED).body(courrierServices.fetchallCourrierdetails());
+        System.out.println("request received");
+        return courrierServices.fetchallCourrierdetails();
     }
 
     @GetMapping("/find")

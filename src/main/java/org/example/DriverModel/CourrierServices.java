@@ -31,12 +31,11 @@ public class CourrierServices {
     }
 
 
-    public ResponseEntity<?> fetchallCourrierdetails(){
+    public ResponseEntity<List<Courrier>> fetchallCourrierdetails(){
 
-        List<Courrier> courrierList
-                = repository.findAll();
 
-       return ResponseEntity.status(HttpStatus.ACCEPTED).body(courrierList);
+        List<Courrier> courrierlist = repository.findAll();
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body(courrierlist);
     }
 
     // find By id
