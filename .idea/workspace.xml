@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="117a6eb6-6f19-4e32-ab33-91d1e720d00c" name="Changes" comment="Rest Api {adding and finding drivers by ID}">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverController/SignupRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverController/DriverControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverController/DriverControllerApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverModel/CourrierServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverModel/CourrierServices.java" afterDir="false" />
     </list>
@@ -97,7 +95,12 @@
       <workItem from="1726274558375" duration="591000" />
       <workItem from="1726275196801" duration="272000" />
       <workItem from="1726275471536" duration="659000" />
-      <workItem from="1726354222693" duration="7738000" />
+      <workItem from="1726354222693" duration="8142000" />
+      <workItem from="1726405931523" duration="429000" />
+      <workItem from="1726499272774" duration="761000" />
+      <workItem from="1726589272347" duration="5345000" />
+      <workItem from="1726609089838" duration="2053000" />
+      <workItem from="1726612669389" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="Driver Gps App commit 1">
       <option name="closed" value="true" />
@@ -131,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726357603903</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rest Api {adding and finding drivers by ID}">
+      <option name="closed" value="true" />
+      <created>1726368723410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726368723410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

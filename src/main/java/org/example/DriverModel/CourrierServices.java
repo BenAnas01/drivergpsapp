@@ -51,6 +51,32 @@ public class CourrierServices {
 
        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 
+    }
+
+
+    public ResponseEntity<?> UppdateCoordinateByDriverId(GpsCoordinates gpsCoordinates, String driverid){
+
+        Optional<Courrier> courrier  = repository.findById(driverid);
+
+        if (courrier.isPresent()){
+
+            Courrier updatedCourrier = courrier.get();
+            updatedCourrier.setGpsCoordinates(gpsCoordinates);
+
+            try{
+
+                repository.save(updatedCourrier);
+
+                return ResponseEntity.status(HttpStatus.ACCEPTED).build();
+            }
+            catch (Exception e){
+                throw  e;
+            }
+
+
+        }
+
+        return null;
 
 
     }

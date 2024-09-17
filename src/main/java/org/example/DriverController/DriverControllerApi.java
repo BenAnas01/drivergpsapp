@@ -56,4 +56,27 @@ public class DriverControllerApi {
 
         return courrierServices.findbyId(id);
     }
+
+
+    @PutMapping("/update")
+    public ResponseEntity<?> updatecoordinates(
+
+            @RequestParam String driverid,
+            @RequestParam String langtitude,
+            @RequestParam String latitude
+    )
+    {
+
+        GpsCoordinates gpsCoordinates = new GpsCoordinates();
+        gpsCoordinates.setLongtitue(langtitude);
+        gpsCoordinates.setLatitude(latitude);
+
+        try{
+            return  courrierServices.UppdateCoordinateByDriverId(gpsCoordinates, driverid);
+        }
+        catch (Exception e){
+            return ResponseEntity.status(HttpStatus.CONFLICT).build();
+        }
+
+    }
 }
