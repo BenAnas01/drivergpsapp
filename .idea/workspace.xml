@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117a6eb6-6f19-4e32-ab33-91d1e720d00c" name="Changes" comment="new commit  , getting driver by id and updating details">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverController/TripRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverController/TripsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Trips/model/DriverTrips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Trips/model/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Trips/model/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Trips/model/Trip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Trips/model/TripRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Trips/model/TripServices.java" afterDir="false" />
+    <list default="true" id="117a6eb6-6f19-4e32-ab33-91d1e720d00c" name="Changes" comment="new commit  , getting driver by id and updating details+ dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverController/DriverControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverController/DriverControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverModel/CourrierServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverModel/CourrierServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +38,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Maven.drivergpsappdemo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.drivergpsappdemo [package].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -115,7 +106,9 @@
       <workItem from="1726756410194" duration="1100000" />
       <workItem from="1726759285788" duration="10184000" />
       <workItem from="1727116921204" duration="26000" />
-      <workItem from="1727137650846" duration="829000" />
+      <workItem from="1727137650846" duration="1627000" />
+      <workItem from="1727484047815" duration="60000" />
+      <workItem from="1727484145163" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Driver Gps App commit 1">
       <option name="closed" value="true" />
@@ -165,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726612703879</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new commit  , getting driver by id and updating details+ dockerfile">
+      <option name="closed" value="true" />
+      <created>1727143126003</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727143126003</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +200,7 @@
     <MESSAGE value="Driver Gps App commit 2" />
     <MESSAGE value="Rest Api {adding and finding drivers by ID}" />
     <MESSAGE value="new commit  , getting driver by id and updating details" />
-    <option name="LAST_COMMIT_MESSAGE" value="new commit  , getting driver by id and updating details" />
+    <MESSAGE value="new commit  , getting driver by id and updating details+ dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit  , getting driver by id and updating details+ dockerfile" />
   </component>
 </project>
