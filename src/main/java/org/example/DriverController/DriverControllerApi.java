@@ -187,5 +187,11 @@ public class DriverControllerApi {
 
     }
 
+    @GetMapping("/healthy")
+    public ResponseEntity<?> healthyapi(){
+
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body("ok : v1");
+    }
+
 
 }
